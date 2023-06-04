@@ -1,0 +1,15 @@
+algoritmo calculamedia
+    escreva "digite a quantidade de números:"
+    leia quantidade
+    
+    soma = 0
+    para i de 1 até quantidade faça
+        escreva "digite o número", i, ":"
+        leia numero
+        soma = soma + numero
+    fim para
+    
+    media = soma / quantidade
+    
+    escreva "a média dos números é:", media
+fim algoritmo
