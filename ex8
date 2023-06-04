@@ -1,0 +1,14 @@
+algoritmo calculajuroscompostos
+    escreva "digite o valor principal:"
+    leia principal
+    
+    escreva "digite a taxa de juros anual (em decimal):"
+    leia taxajuros
+    
+    escreva "digite o período de tempo (em anos):"
+    leia periodotempo
+    
+    montante = principal * (1 + taxajuros) ^ periodotempo
+    
+    escreva "o montante após", periodotempo, "anos com juros compostos é:", montante
+
