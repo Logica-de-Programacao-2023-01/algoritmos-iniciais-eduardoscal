@@ -1,0 +1,21 @@
+    escreva "digite a quantidade de números na lista:"
+    leia quantidade
+    
+    para i de 1 até quantidade faça
+        escreva "digite o número", i, ":"
+        leia numero
+        lista[i] = numero
+    
+    escreva "digite o número a ser buscado:"
+    leia numerobusca
+    
+    encontrado = falso
+    para i de 1 até quantidade faça
+        se lista[i] = numerobusca então
+            encontrado = verdadeiro
+    
+    se encontrado então
+        escreva "o número foi encontrado na lista."
+    senão
+        escreva "o número não foi encontrado na lista."
+    
