@@ -1,0 +1,6 @@
+imprima "Digite o primeiro número:"
+    ler numero1
+    imprima "Digite o segundo número:"
+    ler numero2
+    soma = numero1 + numero2
+    imprima soma
