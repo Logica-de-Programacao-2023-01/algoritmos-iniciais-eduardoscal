@@ -1,0 +1,11 @@
+algoritmo calculafatorial
+    escreva "digite um número inteiro:"
+    leia numero
+    
+    fatorial = 1
+    para i de 1 até numero faça
+        fatorial = fatorial * i
+    fim para
+    
+    escreva "o fatorial de", numero, "é:", fatorial
+fim algoritmo
