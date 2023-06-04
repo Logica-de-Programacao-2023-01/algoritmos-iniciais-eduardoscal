@@ -1,0 +1,10 @@
+algoritmo calculaareatriangulo
+    escreva "digite a base do triângulo:"
+    leia base
+    
+    escreva "digite a altura do triângulo:"
+    leia altura
+    
+    area = (base * altura) / 2
+    
+    escreva "a área do triângulo é:", area
