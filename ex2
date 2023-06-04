@@ -1,0 +1,15 @@
+algoritmo conversaotemperatura
+    escreva "digite a temperatura:"
+    leia temperatura
+    escreva "digite a escala de conversão (c para celsius, f para fahrenheit):"
+    leia escala
+    
+    se escala = "c" então
+        temperaturaconvertida = (temperatura * 9/5) + 32
+        escreva "a temperatura em fahrenheit é:", temperaturaconvertida
+    senão, se escala = "f" então
+        temperaturaconvertida = (temperatura - 32) * 5/9
+        escreva "a temperatura em celsius é:", temperaturaconvertida
+    senão
+        escreva "escala de conversão inválida."
+fim algoritmo
